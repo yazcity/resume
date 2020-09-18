@@ -1,0 +1,64 @@
+h1{
+    color:red;
+}
+h2{
+    color:white;
+    
+}
+p{
+    color: darkslateblue; 
+    font-family: sans-serif;
+}
+button{
+background-color: grey; color: snow;
+}
+#paragrapg{
+    color: black;
+    background:gray;
+}
+.heading{
+    color:red;
+    background:wheat;
+}
+.div1{
+   margin: 100px;
+    background:burlywood;
+    padding: 100px;
+    border: 5px solid;
+    border-color: darkblue;
+    width: 300px;
+}
+.Inner_div{
+    width:200px;
+    margin: 10px;
+    background-color: darkgray;
+    padding: 10px;
+    border: 5px solid;
+    border-color: darkblue;
+}
+.box{
+    margin: 20%;
+    padding: 5%;
+}
+.outer-div{
+    width: 60%;
+    background-color: red;
+    border: 2px solid black;
+
+}
+.inner-div{
+ margin: 1px;
+    width: 100%;
+    background-color:white;
+    border: 1px solid;
+    border-color: cyan;
+    height: 200px;
+}
+.divnw{
+    height: 200px;
+    margin: 0% auto;
+    background-color: cadetblue;
+    display: inline-block;
+width: 40%;
+
+}

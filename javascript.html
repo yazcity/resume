@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="button" onclick="clickme()" value="click me">
+
+    Name   <input type="text" id="txtname">
+    <input type="button" value="text change" onclick="assign()">
+
+    <h1 id=lblname></h1>
+    <script>
+function assign()
+{
+    var inputs=document.getElementById("txtname").value;
+    document.getElementById("lblname").innerHTML=inputs;
+}
+
+
+        function clickme(){
+var a =100
+var b=250
+var c=a+b;
+console.log(c);
+
+var k=10;
+var k= 50;
+
+console.log(k)
+
+
+let lest=500;
+
+
+console.log(lest);
+
+if(lest%2==0){
+    console.log("even value")
+}else{
+    console.log("odd vale")
+}
+
+for(i=0;i<=10;i++)
+{
+    console.log(i)
+}
+
+var arr=["yaz","shana",2017]
+
+console.log(arr);
+
+console.log(arr[1]);
+
+var person={name:"yaz",palec:"Thennala", Age:30}
+console.log(person);
+
+console.log("name = "+person.name);
+
+
+var objarra=[{name:"yaz",palec:"Thennala", Age:30},{name:"shana",palec:"pakara", Age:22},
+{name:"Hessa",palec:"Thennala", Age:1}]
+        
+        console.log(objarra);
+        console.log(objarra[1].name)
+
+        for(i=0;i<objarra.length;i++)
+        {
+console.log(objarra[i].name);
+        }
+        }
+    </script>        
+</body>
+</html>

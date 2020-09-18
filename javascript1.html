@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #screen{
+            width: 200px;
+            height: 200px;
+            border: solid;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="screen">
+
+    </div>
+
+ <input type="text" id="cal">
+ <input type="button" value="calculate" onclick="cali()">
+    <button onclick="getcolor('red')">red</button>
+    <button onclick="getcolor('green')">green</button>
+    <button onclick="getcolor('yellow')">yellow</button>
+    <button onclick="getcolor('orange')">orange</button>
+
+    <script>
+       function getcolor(col)
+       {
+document.getElementById("screen").style.backgroundColor=col;
+       }
+
+       function cali()
+       {
+           var vals=document.getElementById("cal").value;
+
+           document.getElementById("cal").value=eval(vals);
+       } 
+    </script>
+</body>
+</html>
